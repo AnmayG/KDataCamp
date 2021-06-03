@@ -1,0 +1,23 @@
+---
+title: "Rpubs_Work"
+author: "Anmay Gupta"
+date: "6/3/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+#Libraries go here
+library(tidyverse)
+library(primer.data)
+```
+
+## R Markdown
+
+This is a test
+
+```{r, echo = FALSE}
+ggplot(trains, aes(x = att_start, y = att_end)) + geom_point()
+
+```
+
